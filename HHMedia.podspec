@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
                     详细的说明以及描述
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/HHMedia"
+  spec.homepage     = "https://github.com/WorkerHuan/HHMedia.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
