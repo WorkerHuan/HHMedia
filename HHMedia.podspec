@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HHMedia"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "视屏组建"
 
   # This description is used to generate tags and improve search results.
@@ -92,9 +92,9 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "HHMedia", "HHMedia/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.exclude_files = "Classes/**/Exclude"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  # spec.public_header_files = "Classes/**/unused.{h,m}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
