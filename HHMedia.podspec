@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HHMedia"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "视屏组建"
 
   # This description is used to generate tags and improve search results.
