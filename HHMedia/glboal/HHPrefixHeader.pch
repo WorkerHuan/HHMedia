@@ -1,0 +1,15 @@
+//
+//  HHPrefixHeader.pch
+//  HHMedia
+//
+//  Created by llbt on 2019/8/19.
+//  Copyright © 2019 lianlong.com. All rights reserved.
+//
+
+#ifndef HHPrefixHeader_pch
+#define HHPrefixHeader_pch
+
+#import "Masonry.h"
+#import "HHMacroDefinition.h"
+
+#endif /* HHPrefixHeader_pch */

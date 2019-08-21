@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		615BA6634463E41CA49EE5AE /* libPods-HHMedia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E89E848D3A4CBA8952167BD5 /* libPods-HHMedia.a */; };
+		E7414A69230A3BD300EE880D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7414A68230A3BD300EE880D /* AppDelegate.m */; };
+		E7414A71230A3BD500EE880D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7414A70230A3BD500EE880D /* Assets.xcassets */; };
+		E7414A74230A3BD500EE880D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7414A72230A3BD500EE880D /* LaunchScreen.storyboard */; };
+		E7414A77230A3BD500EE880D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7414A76230A3BD500EE880D /* main.m */; };
+		E7414A80230A3F9C00EE880D /* HHHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E7414A7F230A3F9C00EE880D /* HHHomeVC.m */; };
+		E7414A85230A41E200EE880D /* HHMacroDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = E7414A84230A41E200EE880D /* HHMacroDefinition.m */; };
+		E7414A88230A445D00EE880D /* UIColor+HHColorChange.m in Sources */ = {isa = PBXBuildFile; fileRef = E7414A86230A445C00EE880D /* UIColor+HHColorChange.m */; };
+		E7414AA7230A818000EE880D /* HHAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = E7414AA6230A818000EE880D /* HHAuth.m */; };
+		E77286E3230B86C500B79012 /* HHImageToVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = E77286E2230B86C500B79012 /* HHImageToVideo.m */; };
+		E77286E7230B8FA400B79012 /* HHFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E77286E6230B8FA400B79012 /* HHFileManager.m */; };
+		E7728701230BDC1800B79012 /* HHBrowserTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = E77286F2230BDC1800B79012 /* HHBrowserTopView.m */; };
+		E7728702230BDC1800B79012 /* HHPHAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = E77286F4230BDC1800B79012 /* HHPHAsset.m */; };
+		E7728703230BDC1800B79012 /* HHSelectImagesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E77286F7230BDC1800B79012 /* HHSelectImagesCell.m */; };
+		E7728704230BDC1800B79012 /* HHBrowserVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E77286F8230BDC1800B79012 /* HHBrowserVC.m */; };
+		E7728705230BDC1800B79012 /* HHBrowserBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = E77286F9230BDC1800B79012 /* HHBrowserBottomView.m */; };
+		E7728706230BDC1800B79012 /* HHBrowserBottomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E77286FA230BDC1800B79012 /* HHBrowserBottomCell.m */; };
+		E7728707230BDC1800B79012 /* HHBrowerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E77286FC230BDC1800B79012 /* HHBrowerCell.m */; };
+		E7728708230BDC1800B79012 /* HHSelectImagesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E77286FE230BDC1800B79012 /* HHSelectImagesVC.m */; };
+		E772870F230BDE2900B79012 /* HHSingleVideoPalyVc.m in Sources */ = {isa = PBXBuildFile; fileRef = E772870E230BDE2900B79012 /* HHSingleVideoPalyVc.m */; };
+		E7728713230BECAD00B79012 /* HHSelectVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E7728712230BECAD00B79012 /* HHSelectVideoVC.m */; };
+		E7728716230C098500B79012 /* HHSelectVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7728715230C098500B79012 /* HHSelectVideoCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089B788077F605CE6DE4DFD2 /* Pods-HHMedia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHMedia.release.xcconfig"; path = "Target Support Files/Pods-HHMedia/Pods-HHMedia.release.xcconfig"; sourceTree = "<group>"; };
+		149E9E487A7DEC6909D913AE /* Pods-HHMedia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHMedia.debug.xcconfig"; path = "Target Support Files/Pods-HHMedia/Pods-HHMedia.debug.xcconfig"; sourceTree = "<group>"; };
+		E7414A64230A3BD300EE880D /* HHMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7414A67230A3BD300EE880D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7414A68230A3BD300EE880D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7414A70230A3BD500EE880D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7414A73230A3BD500EE880D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7414A75230A3BD500EE880D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7414A76230A3BD500EE880D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7414A7E230A3F9C00EE880D /* HHHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHHomeVC.h; sourceTree = "<group>"; };
+		E7414A7F230A3F9C00EE880D /* HHHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHHomeVC.m; sourceTree = "<group>"; };
+		E7414A82230A41B200EE880D /* HHPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHPrefixHeader.pch; sourceTree = "<group>"; };
+		E7414A83230A41E200EE880D /* HHMacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHMacroDefinition.h; sourceTree = "<group>"; };
+		E7414A84230A41E200EE880D /* HHMacroDefinition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHMacroDefinition.m; sourceTree = "<group>"; };
+		E7414A86230A445C00EE880D /* UIColor+HHColorChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HHColorChange.m"; sourceTree = "<group>"; };
+		E7414A87230A445C00EE880D /* UIColor+HHColorChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HHColorChange.h"; sourceTree = "<group>"; };
+		E7414AA5230A818000EE880D /* HHAuth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHAuth.h; sourceTree = "<group>"; };
+		E7414AA6230A818000EE880D /* HHAuth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHAuth.m; sourceTree = "<group>"; };
+		E77286E1230B86C500B79012 /* HHImageToVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHImageToVideo.h; sourceTree = "<group>"; };
+		E77286E2230B86C500B79012 /* HHImageToVideo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHImageToVideo.m; sourceTree = "<group>"; };
+		E77286E5230B8FA400B79012 /* HHFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHFileManager.h; sourceTree = "<group>"; };
+		E77286E6230B8FA400B79012 /* HHFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHFileManager.m; sourceTree = "<group>"; };
+		E77286F1230BDC1800B79012 /* HHBrowserBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHBrowserBottomView.h; sourceTree = "<group>"; };
+		E77286F2230BDC1800B79012 /* HHBrowserTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHBrowserTopView.m; sourceTree = "<group>"; };
+		E77286F3230BDC1800B79012 /* HHBrowerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHBrowerCell.h; sourceTree = "<group>"; };
+		E77286F4230BDC1800B79012 /* HHPHAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHPHAsset.m; sourceTree = "<group>"; };
+		E77286F5230BDC1800B79012 /* HHBrowserBottomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHBrowserBottomCell.h; sourceTree = "<group>"; };
+		E77286F6230BDC1800B79012 /* HHSelectImagesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHSelectImagesVC.h; sourceTree = "<group>"; };
+		E77286F7230BDC1800B79012 /* HHSelectImagesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHSelectImagesCell.m; sourceTree = "<group>"; };
+		E77286F8230BDC1800B79012 /* HHBrowserVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHBrowserVC.m; sourceTree = "<group>"; };
+		E77286F9230BDC1800B79012 /* HHBrowserBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHBrowserBottomView.m; sourceTree = "<group>"; };
+		E77286FA230BDC1800B79012 /* HHBrowserBottomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHBrowserBottomCell.m; sourceTree = "<group>"; };
+		E77286FB230BDC1800B79012 /* HHPHAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHPHAsset.h; sourceTree = "<group>"; };
+		E77286FC230BDC1800B79012 /* HHBrowerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHBrowerCell.m; sourceTree = "<group>"; };
+		E77286FD230BDC1800B79012 /* HHBrowserTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHBrowserTopView.h; sourceTree = "<group>"; };
+		E77286FE230BDC1800B79012 /* HHSelectImagesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHSelectImagesVC.m; sourceTree = "<group>"; };
+		E77286FF230BDC1800B79012 /* HHBrowserVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHBrowserVC.h; sourceTree = "<group>"; };
+		E7728700230BDC1800B79012 /* HHSelectImagesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHSelectImagesCell.h; sourceTree = "<group>"; };
+		E772870D230BDE2900B79012 /* HHSingleVideoPalyVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHSingleVideoPalyVc.h; sourceTree = "<group>"; };
+		E772870E230BDE2900B79012 /* HHSingleVideoPalyVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHSingleVideoPalyVc.m; sourceTree = "<group>"; };
+		E7728711230BECAD00B79012 /* HHSelectVideoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHSelectVideoVC.h; sourceTree = "<group>"; };
+		E7728712230BECAD00B79012 /* HHSelectVideoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHSelectVideoVC.m; sourceTree = "<group>"; };
+		E7728714230C098500B79012 /* HHSelectVideoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHSelectVideoCell.h; sourceTree = "<group>"; };
+		E7728715230C098500B79012 /* HHSelectVideoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHSelectVideoCell.m; sourceTree = "<group>"; };
+		E89E848D3A4CBA8952167BD5 /* libPods-HHMedia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHMedia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7414A61230A3BD300EE880D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615BA6634463E41CA49EE5AE /* libPods-HHMedia.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FF3E39C8124C0D505E56F1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				149E9E487A7DEC6909D913AE /* Pods-HHMedia.debug.xcconfig */,
+				089B788077F605CE6DE4DFD2 /* Pods-HHMedia.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		58207997E60BA70C88687400 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E89E848D3A4CBA8952167BD5 /* libPods-HHMedia.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7414A5B230A3BD300EE880D = {
+			isa = PBXGroup;
+			children = (
+				E7414A66230A3BD300EE880D /* HHMedia */,
+				E7414A65230A3BD300EE880D /* Products */,
+				0FF3E39C8124C0D505E56F1B /* Pods */,
+				58207997E60BA70C88687400 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E7414A65230A3BD300EE880D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7414A64230A3BD300EE880D /* HHMedia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7414A66230A3BD300EE880D /* HHMedia */ = {
+			isa = PBXGroup;
+			children = (
+				E7728710230BEC6800B79012 /* videoBrower */,
+				E772870C230BDD5B00B79012 /* singelPlay */,
+				E77286F0230BDC1800B79012 /* ImageBrower */,
+				E77286E4230B8F5C00B79012 /* fileManager */,
+				E77286E0230B868A00B79012 /* ImageToVideo */,
+				E7414AA4230A80DD00EE880D /* auth */,
+				E7414A81230A413900EE880D /* glboal */,
+				E7414A67230A3BD300EE880D /* AppDelegate.h */,
+				E7414A68230A3BD300EE880D /* AppDelegate.m */,
+				E7414A7E230A3F9C00EE880D /* HHHomeVC.h */,
+				E7414A7F230A3F9C00EE880D /* HHHomeVC.m */,
+				E7414A70230A3BD500EE880D /* Assets.xcassets */,
+				E7414A72230A3BD500EE880D /* LaunchScreen.storyboard */,
+				E7414A75230A3BD500EE880D /* Info.plist */,
+				E7414A76230A3BD500EE880D /* main.m */,
+			);
+			path = HHMedia;
+			sourceTree = "<group>";
+		};
+		E7414A81230A413900EE880D /* glboal */ = {
+			isa = PBXGroup;
+			children = (
+				E7414A82230A41B200EE880D /* HHPrefixHeader.pch */,
+				E7414A83230A41E200EE880D /* HHMacroDefinition.h */,
+				E7414A84230A41E200EE880D /* HHMacroDefinition.m */,
+				E7414A87230A445C00EE880D /* UIColor+HHColorChange.h */,
+				E7414A86230A445C00EE880D /* UIColor+HHColorChange.m */,
+			);
+			path = glboal;
+			sourceTree = "<group>";
+		};
+		E7414AA4230A80DD00EE880D /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				E7414AA5230A818000EE880D /* HHAuth.h */,
+				E7414AA6230A818000EE880D /* HHAuth.m */,
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
+		E77286E0230B868A00B79012 /* ImageToVideo */ = {
+			isa = PBXGroup;
+			children = (
+				E77286E1230B86C500B79012 /* HHImageToVideo.h */,
+				E77286E2230B86C500B79012 /* HHImageToVideo.m */,
+			);
+			path = ImageToVideo;
+			sourceTree = "<group>";
+		};
+		E77286E4230B8F5C00B79012 /* fileManager */ = {
+			isa = PBXGroup;
+			children = (
+				E77286E5230B8FA400B79012 /* HHFileManager.h */,
+				E77286E6230B8FA400B79012 /* HHFileManager.m */,
+			);
+			path = fileManager;
+			sourceTree = "<group>";
+		};
+		E77286F0230BDC1800B79012 /* ImageBrower */ = {
+			isa = PBXGroup;
+			children = (
+				E772870B230BDC9A00B79012 /* model */,
+				E772870A230BDC7B00B79012 /* view */,
+				E7728709230BDC2F00B79012 /* control */,
+			);
+			path = ImageBrower;
+			sourceTree = "<group>";
+		};
+		E7728709230BDC2F00B79012 /* control */ = {
+			isa = PBXGroup;
+			children = (
+				E77286F6230BDC1800B79012 /* HHSelectImagesVC.h */,
+				E77286FE230BDC1800B79012 /* HHSelectImagesVC.m */,
+				E77286FF230BDC1800B79012 /* HHBrowserVC.h */,
+				E77286F8230BDC1800B79012 /* HHBrowserVC.m */,
+			);
+			name = control;
+			sourceTree = "<group>";
+		};
+		E772870A230BDC7B00B79012 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E77286F3230BDC1800B79012 /* HHBrowerCell.h */,
+				E77286FC230BDC1800B79012 /* HHBrowerCell.m */,
+				E77286F1230BDC1800B79012 /* HHBrowserBottomView.h */,
+				E77286F9230BDC1800B79012 /* HHBrowserBottomView.m */,
+				E77286F5230BDC1800B79012 /* HHBrowserBottomCell.h */,
+				E77286FA230BDC1800B79012 /* HHBrowserBottomCell.m */,
+				E77286FD230BDC1800B79012 /* HHBrowserTopView.h */,
+				E77286F2230BDC1800B79012 /* HHBrowserTopView.m */,
+				E7728700230BDC1800B79012 /* HHSelectImagesCell.h */,
+				E77286F7230BDC1800B79012 /* HHSelectImagesCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E772870B230BDC9A00B79012 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E77286FB230BDC1800B79012 /* HHPHAsset.h */,
+				E77286F4230BDC1800B79012 /* HHPHAsset.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		E772870C230BDD5B00B79012 /* singelPlay */ = {
+			isa = PBXGroup;
+			children = (
+				E772870D230BDE2900B79012 /* HHSingleVideoPalyVc.h */,
+				E772870E230BDE2900B79012 /* HHSingleVideoPalyVc.m */,
+			);
+			path = singelPlay;
+			sourceTree = "<group>";
+		};
+		E7728710230BEC6800B79012 /* videoBrower */ = {
+			isa = PBXGroup;
+			children = (
+				E7728711230BECAD00B79012 /* HHSelectVideoVC.h */,
+				E7728712230BECAD00B79012 /* HHSelectVideoVC.m */,
+				E7728714230C098500B79012 /* HHSelectVideoCell.h */,
+				E7728715230C098500B79012 /* HHSelectVideoCell.m */,
+			);
+			path = videoBrower;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7414A63230A3BD300EE880D /* HHMedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7414A7A230A3BD500EE880D /* Build configuration list for PBXNativeTarget "HHMedia" */;
+			buildPhases = (
+				4CAE635343224764AD405D4E /* [CP] Check Pods Manifest.lock */,
+				E7414A60230A3BD300EE880D /* Sources */,
+				E7414A61230A3BD300EE880D /* Frameworks */,
+				E7414A62230A3BD300EE880D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HHMedia;
+			productName = HHMedia;
+			productReference = E7414A64230A3BD300EE880D /* HHMedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7414A5C230A3BD300EE880D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HH;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = lianlong.com;
+				TargetAttributes = {
+					E7414A63230A3BD300EE880D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = E7414A5F230A3BD300EE880D /* Build configuration list for PBXProject "HHMedia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7414A5B230A3BD300EE880D;
+			productRefGroup = E7414A65230A3BD300EE880D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7414A63230A3BD300EE880D /* HHMedia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7414A62230A3BD300EE880D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7414A74230A3BD500EE880D /* LaunchScreen.storyboard in Resources */,
+				E7414A71230A3BD500EE880D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CAE635343224764AD405D4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HHMedia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7414A60230A3BD300EE880D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7414A77230A3BD500EE880D /* main.m in Sources */,
+				E772870F230BDE2900B79012 /* HHSingleVideoPalyVc.m in Sources */,
+				E77286E3230B86C500B79012 /* HHImageToVideo.m in Sources */,
+				E7414A85230A41E200EE880D /* HHMacroDefinition.m in Sources */,
+				E7728716230C098500B79012 /* HHSelectVideoCell.m in Sources */,
+				E77286E7230B8FA400B79012 /* HHFileManager.m in Sources */,
+				E7728703230BDC1800B79012 /* HHSelectImagesCell.m in Sources */,
+				E7728707230BDC1800B79012 /* HHBrowerCell.m in Sources */,
+				E7728706230BDC1800B79012 /* HHBrowserBottomCell.m in Sources */,
+				E7414A88230A445D00EE880D /* UIColor+HHColorChange.m in Sources */,
+				E7414AA7230A818000EE880D /* HHAuth.m in Sources */,
+				E7728702230BDC1800B79012 /* HHPHAsset.m in Sources */,
+				E7414A69230A3BD300EE880D /* AppDelegate.m in Sources */,
+				E7728713230BECAD00B79012 /* HHSelectVideoVC.m in Sources */,
+				E7728704230BDC1800B79012 /* HHBrowserVC.m in Sources */,
+				E7728708230BDC1800B79012 /* HHSelectImagesVC.m in Sources */,
+				E7414A80230A3F9C00EE880D /* HHHomeVC.m in Sources */,
+				E7728701230BDC1800B79012 /* HHBrowserTopView.m in Sources */,
+				E7728705230BDC1800B79012 /* HHBrowserBottomView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7414A72230A3BD500EE880D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7414A73230A3BD500EE880D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7414A78230A3BD500EE880D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E7414A79230A3BD500EE880D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7414A7B230A3BD500EE880D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 149E9E487A7DEC6909D913AE /* Pods-HHMedia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26CDGM5A38;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HHMedia/glboal/HHPrefixHeader.pch";
+				INFOPLIST_FILE = HHMedia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lianlong.com.HHMedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7414A7C230A3BD500EE880D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 089B788077F605CE6DE4DFD2 /* Pods-HHMedia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26CDGM5A38;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HHMedia/glboal/HHPrefixHeader.pch";
+				INFOPLIST_FILE = HHMedia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lianlong.com.HHMedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7414A5F230A3BD300EE880D /* Build configuration list for PBXProject "HHMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7414A78230A3BD500EE880D /* Debug */,
+				E7414A79230A3BD500EE880D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7414A7A230A3BD500EE880D /* Build configuration list for PBXNativeTarget "HHMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7414A7B230A3BD500EE880D /* Debug */,
+				E7414A7C230A3BD500EE880D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7414A5C230A3BD300EE880D /* Project object */;
+}
