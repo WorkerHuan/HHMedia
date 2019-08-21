@@ -132,7 +132,10 @@ Pod::Spec.new do |spec|
 
     spec.requires_arc = true
 
-  # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
+# spec.xcconfig = { "PRECOMPILE_PREFIX_HEADER" => "true" }
+#   spec.xcconfig = { "PREFIX_HEADER" => "$(SRCROOT)/HHMedia/glboal/HHPrefixHeader.pch" }
+spec.prefix_header_file = 'HHMedia/glboal/HHPrefixHeader.pch'
+#spec.prefix_header_file = true
+   spec.dependency "Masonry", "~> 1.0.2"
 
 end
